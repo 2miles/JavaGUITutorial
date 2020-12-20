@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class JFrameTutorialLayouts {
+public class JFrameTutorialBorderLayouts {
     public static void main (String[] args) {
 
         //Layout Manager: Defines the natural layout for components within a container
@@ -10,6 +10,11 @@ public class JFrameTutorialLayouts {
 
         // BorderLayout: A BorserLayout places components in fice areas:
                         // NORTH, SOUTH, EAST, WEST, CENTER
+
+        // FlowLayout: places components in a row, sized at their preferred size.
+        // If the horizontal space in the container is too small, the FlowLayout
+        // class uses the next available row.
+
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
